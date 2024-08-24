@@ -11,7 +11,7 @@ const Clients = () => {
             <h1 className='text-2xl font-bold text-primary text-center mb-10'>Successful Businesses Choose Cartex</h1>
             
             <Swiper
-        spaceBetween={30}
+        spaceBetween={50}
         slidesPerView={3}
         breakpoints={{
           640: {
@@ -42,7 +42,7 @@ const Clients = () => {
       >
         {
             clients.map((c, i) => <SwiperSlide key={i}>
-                <img src={`/clients/${c}`} className='h-10' alt="" />
+                <img src={`/clients/${c}`} className='grayscale hover:grayscale-0 duration-300 h-10' alt="" />
             </SwiperSlide>)
         }
         
