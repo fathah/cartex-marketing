@@ -36,7 +36,7 @@ const Features = () => {
     return (
         <div className="bg-secondary/10 py-10">
             <h1 className="commonwidth text-2xl mb-6 text-center">Why Choose Cartex?</h1>
-            <section className="commonwidth grid grid-cols-3 gap-8">
+            <section className="commonwidth grid lg:grid-cols-3 gap-8">
                 {
                     features.map((feature, index) => (
                         <div key={index} 
